@@ -171,39 +171,18 @@ Distancia total: 43 km
 
 ## Conceitos fundamentais
 
-  -----------------------------------------------------------------------
-  Conceito                            Aplicação no programa
-  ----------------------------------- -----------------------------------
-  Matriz                              Armazena as distâncias entre as
-                                      cidades.
-
-  Vetor (`String[]`)                  Representa a ordem de visita das
-                                      cidades.
-
-  Método `indice()`                   Converte o nome de uma cidade em
-                                      índice da matriz.
-
-  Método `avaliar()`                  Calcula a distância total de uma
-                                      rota.
-
-  Método `mostrarRota()`              Exibe a rota no console.
-
-  `for` tradicional                   Percorre as cidades e testa as
-                                      trocas entre posições.
-
-  `if` e `else`                       Comparam distâncias e verificam se
-                                      houve melhoria.
-
-  `while` e variável booleana         Repetem a busca até não haver
-                                      melhoria.
-
-  `clone()`                           Cria uma cópia do vetor para testar
-                                      uma alternativa sem alterar a rota
-                                      atual.
-
-  Hill Climbing                       Seleciona uma solução vizinha
-                                      melhor a cada etapa.
-  -----------------------------------------------------------------------
+| Conceito                    | Aplicação no programa                                                         |
+| --------------------------- | ----------------------------------------------------------------------------- |
+| Matriz                      | Armazena as distâncias entre as cidades.                                      |
+| Vetor (`String[]`)          | Representa a ordem de visita das cidades.                                     |
+| Método `indice()`           | Converte o nome de uma cidade em índice da matriz.                            |
+| Método `avaliar()`          | Calcula a distância total de uma rota.                                        |
+| Método `mostrarRota()`      | Exibe a rota no console.                                                      |
+| `for` tradicional           | Percorre as cidades e testa as trocas entre posições.                         |
+| `if` e `else`               | Comparam distâncias e verificam se houve melhoria.                            |
+| `while` e variável booleana | Repetem a busca até não haver melhoria.                                       |
+| `clone()`                   | Cria uma cópia do vetor para testar uma alternativa sem alterar a rota atual. |
+| Hill Climbing               | Seleciona uma solução vizinha melhor a cada etapa.                            |
 
 ## Limitações
 
